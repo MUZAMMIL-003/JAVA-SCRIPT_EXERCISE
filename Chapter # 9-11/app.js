@@ -1,5 +1,5 @@
 console.log("Question # 01")
-______________Question # 01______________________
+// ______________Question # 01______________________
 var cityName = prompt("Enter your city name");
 var userCityName  = cityName.toLowerCase();
 if(userCityName == "karachi"){
@@ -19,7 +19,7 @@ if(userCityName == "karachi"){
 // }
 
 console.log("Question # 02")
-______________Question # 02______________________
+// ______________Question # 02______________________
 var genders = prompt("Enter your gender");
 var gender  = genders.toLowerCase();
 if(gender == "male"){
@@ -29,7 +29,7 @@ if(gender == "male"){
 }
 
 console.log("Question # 03")
-______________Question # 03______________________
+// ______________Question # 03______________________
 var trafficColors = prompt("Enter any traffic signal color");
 var colors  = trafficColors.toLowerCase();
 if(colors == "red"){
@@ -41,7 +41,7 @@ if(colors == "red"){
 }
 
 console.log("Question # 04")
-______________Question # 04______________________
+// ______________Question # 04______________________
 var carFuel = prompt("Enter your car fuel in liters");
 var fuel  = carFuel.toLowerCase();
 if(fuel > 0.25 ){
@@ -51,7 +51,7 @@ if(fuel > 0.25 ){
 }
 
 console.log("Question # 05")
-______________Question # 05______________________
+// ______________Question # 05______________________
 
 console.log("Question # 05 part--a")
  var a = 4;
@@ -103,7 +103,7 @@ if("car" < "cat"){
     console.log("car is smaller than cat");
 }
 
-______________Question # 07______________________
+// ______________Question # 07______________________
 console.log("Question # 07")
 var userNum = prompt("Guess any Number between 1-10")
 var secretNum= 3;
@@ -116,14 +116,14 @@ if (userNum == secretNum) {
     console.log("Try-Again")
 }
 
-______________Question # 08______________________
+// ______________Question # 08______________________
 console.log("Question # 08")
 var userInput = prompt("Write any number which is divisible by 3")
 var dividend = userInput / 3
 console.log( "The answer is :" + " " + dividend)
 
 
-______________Question # 09______________________
+// ______________Question # 09______________________
 console.log("Question # 09")
 var inputNum =  +prompt("Write any number i'll tell the number is odd or even");
 if (inputNum % 2 == 0) {
@@ -132,7 +132,7 @@ if (inputNum % 2 == 0) {
 { console.log("this number is odd")   
 }
 
-______________Question # 10______________________
+// ______________Question # 10______________________
 console.log("Question # 10")
 var temp = prompt("enter todays temperature")
 if (temp >= 40) {
@@ -149,13 +149,12 @@ else if (temp >= 10 && temp < 20) {
 }
 
 
-______________Question # 11______________________
-console.log("Question # 11")
+// ______________Question # 11______________________
+// console.log("Question # 11")
 var firstNum = +prompt("Enter your first Number")
 var opration = prompt("Enetr your operation (+, -, *, /, %)")
 var  secondNum = +prompt("Enter your second Number")
 
-// console.log(result)
 if (opration == "+") {
     result = firstNum + secondNum;
 } else if (opration == "-") {
@@ -165,4 +164,4 @@ if (opration == "+") {
 } else if (opration == "/") {
     result = firstNum / secondNum;
 }
-console.log(result)
+console.log(result) 
